@@ -1,6 +1,6 @@
 const fakeData = [
     {
-        'no': '01', 'course': 'Internet Email and Social Networking', 'content': 'You will learn how to operate internet, create and operate email account in Gmail, Facebook, LinkedIn, YouTube', 'price':500, 'img': 'https://i.imgur.com/HGiOIrt.jpg',
+        'no': '01', 'course': 'Internet Email and Social Networking', 'content': 'You will learn how to operate internet, create and operate email account in Gmail, Facebook, LinkedIn, YouTube', 'price':500, 'img': 'https://i.imgur.com/iiQ4wvi.jpg',
     },
     {
         'no': '02', 'course': 'Windows Operating System, Typing Bangla & English', 'content': 'You will learn how to operate Windows and you will be able to write Bangla and English in your computer without seeing the Kewyboard', 'price':500, 'img': 'https://i.imgur.com/OJ7QikW.jpg',
