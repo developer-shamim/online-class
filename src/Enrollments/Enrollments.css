@@ -1,0 +1,29 @@
+img{
+    width: auto;
+    height: 150px;
+}
+.photo{
+    display:flex;
+}
+.card-title{
+    color: blue;
+}
+.price-text{
+    font-weight: bold;
+    font-size: 16px;
+    color: tomato;
+}
+.card-text{
+    font-size: 12px;
+    font-style: italic;
+}
+.card-deck{
+    text-align: center;
+    float: auto; 
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    border-color: rgb(82, 41, 41);
+
+}
+

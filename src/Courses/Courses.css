@@ -1,0 +1,16 @@
+.class-container{
+    display: flex;
+    
+}
+.course-container{
+    float: left;
+    width:80%;
+    margin-right: 5px;
+    border-right: 1px solid lightgray;
+    padding: 5px; 
+}
+
+.enroll-container{
+    width: 20%;
+    
+}
