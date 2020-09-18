@@ -5,30 +5,22 @@ import './Enrollments.css';
 
 const Enrollments = (props) => {
     const {course, content, price, img} = props.course;
-    return (
-        <div className="card-deck" > 
-            
-                     <div className="card">
-                         <div>
+    return ( 
+                     <div className="card col-lg-3 col-md-8">
+                        <div>
                              <img src={img} className="card-img-top" alt=""/>
-                         </div>
+                        </div>
+
                         <div className="card-body" >
-                        <h5 className="card-title"> {course}</h5>
-                         <p className="card-text"><strong>Course Description:</strong> {content}</p>
-                         
+                            <h5 className="card-title"> {course}</h5>
+                            <p className="card-text"><strong>Course Description:</strong> {content}</p>
                         </div>
     
                         <div className="card-footer">
-                        <p><small className="price-text">Course Fees: Tk. {price}   </small></p>
+                        <p><small className="price-text"> Tk. {price}   </small></p>
                         <button type="button"  className="btn btn-success" onClick={()=>props.handleAddCourse(props.course)}> <FontAwesomeIcon icon={faShoppingCart} />  Enroll Now</button>
                         </div>
-                        
-    
-                
-
-        </div>
-        </div>
-        
+                    </div>
     );
 };
 

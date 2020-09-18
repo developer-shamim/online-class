@@ -1,19 +1,14 @@
 
-
 nav.bg-blue{
-  background-color: goldenrod;
- 
+  background-color: rgb(182, 178, 224);
 }
-
-
-
 
 .App-link {
   color: #61dafb;
 }
 
 .bg-tomato{
-  background-color: lightgray;
+  background-color: rgb(51, 32, 218);
 }
 
 a.nav-link{

@@ -1,17 +1,20 @@
-.cart-btn{
-    width: 180px;
-    background-color: goldenrod;
-    border-radius:8px;
-}
+
 .cart{
+    width: 250px;
     margin-top: 20px;
     margin-right: 10px;
-    padding: 10px;
+    padding:10px;
     border: 1px;
     border-color: 1px solid blue;
 }
 h5{
     text-align:center;
-
-    
+    color: tomato;
+}
+#enrolled-list{
+    color:tomato;
+    text-align: center;
+}
+.btn{
+    margin: 3px;
 }
